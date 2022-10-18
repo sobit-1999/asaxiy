@@ -1,0 +1,24 @@
+.header-container{
+    display: grid;
+    grid-template-columns: 20% 30% 40%;
+    grid-gap: 5%;
+    width: 100%;
+    padding: 20px 7%;
+    background-color: #fff;
+    color: black;
+}
+.navbar-input {
+  background-color: rgb(213, 159, 159);
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: 0 5%;
+}
+.navbar-input input {
+  font-size: 20px;
+  height: 35px;
+  border: none;
+  /* width: 85%; */
+  outline: none;
+  border-radius: 0 0 20px;
+}
